@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=, initial-scale=1.0" />
+        <title>Guess The Number</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="game">
+                    <h1>Guess The Number !</h1>
+                    <p>
+                        <strong>Hey Peeps</strong> &#128075; <br />
+                        A random no between 1 and 100 is selected. See if you
+                        can guess the right no in 10 turns or less. <br />
+                        NOTE: Hint will be given whether the no is too high or
+                        too low. <br />
+                        So let's begin!
+                    </p>
+
+                    <div class="form">
+                        <label>Enter a guess:</label>
+                        <input
+                            type="number"
+                            min="1"
+                            max="100"
+                            required
+                            class="guessField"
+                        />
+
+                        <button class="guessSubmit">Submit</button>
+                        <div class="resultParas">
+                            <p class="guesses"></p>
+                            <p class="lastResult"></p>
+                            <p class="lowOrHigh"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&family=Rubik+Dirt&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 100vh; /* takes the whole height of the page  */
+    border: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/* Centres the content inside the container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80vh;
+    height: 80vh;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 1px #bc70a4;
+    background-image: linear-gradient(
+        140deg,
+        #eadedb 0%,
+        #bc70a4 50%,
+        #bfd641 75%
+    );
+}
+/* centres the game and  aligns it */
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: "Fredoka One", cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(150, 2, 140);
+}
+.guessField {
+    background-image: linear-gradient(
+        140deg,
+        #eadedb 0%,
+        #bc70a4 15%,
+        #bfd641 40%
+    );
+    border: 1px grey;
+    width: 200px;
+    height: 30px;
+}
+button {
+    height: 30px;
+    width: 50px;
+}
